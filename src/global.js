@@ -1,56 +1,32 @@
 import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyles = createGlobalStyle`
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500&display=swap');
-  html, body {
-    margin: 0;
-    padding: 0;
-  }
 
   *, *::after, *::before {
+    margin:0;
+    padding:0;
     box-sizing: border-box;
   }
 
   body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: ${({ theme }) => theme.primaryDark};
-    color: ${({ theme }) => theme.primaryLight};
-    height: 100vh;
-    text-rendering: optimizeLegibility;
+    background: ${({ theme }) => theme.colorBackground};
+    color: ${({ theme }) => theme.colorSecundary};
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    max-width: 1280px;
+    margin: 0 auto;
   }
 
-  h1 {
-    font-size: 2rem;
-    text-align: center;
-    text-transform: uppercase;
+.grid,
+.subgrid {
+  display: grid;
+  ${
+    '' /* grid-column-gap: var(--column-gap);
+  grid-template-columns: repeat(var(--columns), minmax(0, 1fr)); */
   }
-
-  img {
-    border-radius: 5px;
-    height: auto;
-    width: 10rem;
-  }
-
-  div {
-    text-align: center;
-  }
-
-  small {
-    display: block;
-  }
-
-  a {
-    color: ${({ theme }) => theme.primaryHover};
-    text-decoration: none;
-  }
-
-  p {
-    color: ${({ theme }) => theme.primaryLight}
-  }
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-gap: 0.3rem;
+  position: relative;
+}
 `;
 
 export default GlobalStyles;
