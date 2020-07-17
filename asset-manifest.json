@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/moviesearchapp/static/js/main.11120392.chunk.js",
-    "main.js.map": "/moviesearchapp/static/js/main.11120392.chunk.js.map",
-    "runtime-main.js": "/moviesearchapp/static/js/runtime-main.fc8dc909.js",
-    "runtime-main.js.map": "/moviesearchapp/static/js/runtime-main.fc8dc909.js.map",
-    "static/js/2.e9a19845.chunk.js": "/moviesearchapp/static/js/2.e9a19845.chunk.js",
-    "static/js/2.e9a19845.chunk.js.map": "/moviesearchapp/static/js/2.e9a19845.chunk.js.map",
-    "index.html": "/moviesearchapp/index.html",
-    "precache-manifest.b4bb0e708ea9ff0a184a4e70f4f62a62.js": "/moviesearchapp/precache-manifest.b4bb0e708ea9ff0a184a4e70f4f62a62.js",
-    "service-worker.js": "/moviesearchapp/service-worker.js",
-    "static/js/2.e9a19845.chunk.js.LICENSE.txt": "/moviesearchapp/static/js/2.e9a19845.chunk.js.LICENSE.txt",
-    "static/media/sky-news-logo.png": "/moviesearchapp/static/media/sky-news-logo.1c3701b3.png"
+    "main.js": "/portalsnews/static/js/main.b104cc68.chunk.js",
+    "main.js.map": "/portalsnews/static/js/main.b104cc68.chunk.js.map",
+    "runtime-main.js": "/portalsnews/static/js/runtime-main.b32df118.js",
+    "runtime-main.js.map": "/portalsnews/static/js/runtime-main.b32df118.js.map",
+    "static/js/2.3c6d8b17.chunk.js": "/portalsnews/static/js/2.3c6d8b17.chunk.js",
+    "static/js/2.3c6d8b17.chunk.js.map": "/portalsnews/static/js/2.3c6d8b17.chunk.js.map",
+    "index.html": "/portalsnews/index.html",
+    "precache-manifest.259dc80f59ae259ed88009725b4dd8c4.js": "/portalsnews/precache-manifest.259dc80f59ae259ed88009725b4dd8c4.js",
+    "service-worker.js": "/portalsnews/service-worker.js",
+    "static/js/2.3c6d8b17.chunk.js.LICENSE.txt": "/portalsnews/static/js/2.3c6d8b17.chunk.js.LICENSE.txt",
+    "static/media/sky-news-logo.png": "/portalsnews/static/media/sky-news-logo.1c3701b3.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.fc8dc909.js",
-    "static/js/2.e9a19845.chunk.js",
-    "static/js/main.11120392.chunk.js"
+    "static/js/runtime-main.b32df118.js",
+    "static/js/2.3c6d8b17.chunk.js",
+    "static/js/main.b104cc68.chunk.js"
   ]
 }
