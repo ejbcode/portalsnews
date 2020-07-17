@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/moviesearchapp/static/js/main.11120392.chunk.js",
+    "main.js.map": "/moviesearchapp/static/js/main.11120392.chunk.js.map",
+    "runtime-main.js": "/moviesearchapp/static/js/runtime-main.fc8dc909.js",
+    "runtime-main.js.map": "/moviesearchapp/static/js/runtime-main.fc8dc909.js.map",
+    "static/js/2.e9a19845.chunk.js": "/moviesearchapp/static/js/2.e9a19845.chunk.js",
+    "static/js/2.e9a19845.chunk.js.map": "/moviesearchapp/static/js/2.e9a19845.chunk.js.map",
+    "index.html": "/moviesearchapp/index.html",
+    "precache-manifest.b4bb0e708ea9ff0a184a4e70f4f62a62.js": "/moviesearchapp/precache-manifest.b4bb0e708ea9ff0a184a4e70f4f62a62.js",
+    "service-worker.js": "/moviesearchapp/service-worker.js",
+    "static/js/2.e9a19845.chunk.js.LICENSE.txt": "/moviesearchapp/static/js/2.e9a19845.chunk.js.LICENSE.txt",
+    "static/media/sky-news-logo.png": "/moviesearchapp/static/media/sky-news-logo.1c3701b3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fc8dc909.js",
+    "static/js/2.e9a19845.chunk.js",
+    "static/js/main.11120392.chunk.js"
+  ]
+}
